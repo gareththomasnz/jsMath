@@ -3,7 +3,6 @@
         var num = 99;
         var htmlout = "";
         $(document).ready(function() {
-                // function code goes here
                 function isFactor(x) {
                         if (num % x === 0) {
                                 return true;
@@ -12,7 +11,6 @@
                         }
                 }
                 $('#submitButton').click(function() {
-                        // JavaScript code here
                         num = parseFloat($('#input1').val());
                         if (num < 0) {
                                 htmlout = "Enter integer greater than zero.";
